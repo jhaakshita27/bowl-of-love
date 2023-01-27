@@ -1,55 +1,63 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Bowl of Love | Feed the Nation</title>
-    <link rel="stylesheet" href="css/style.css">
-    <link rel="shortcut icon" href="img/logo.jpg" type="image/x-icon">
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Bowl of Love | Feed the Nation</title>
+  <link rel="stylesheet" href="css/style.css">
+  <link rel="shortcut icon" href="img/logo.jpg" type="image/x-icon">
 </head>
 
 <body background="img/background.jpeg">
-    <div class="header">
-        <a class="navbar-brand" href="/">
-            <div class="logo-image">
-                  <img src="img/logo.jpg" height="46" width="46" >
-            </div>
-      </a>
-      <a href="#default" class="logo"><span>Bowl</span> of Love</a>
-        <div class="header-right">
-            <a href="index.html">Home</a>
-            <a href="aboutUs.html">About us</a>
-            <a href="ourWork.html">Our work</a>
-            <a href="contactUs.html" class="activeContact">Contact us</a>
-            <form><script src="https://checkout.razorpay.com/v1/payment-button.js" data-payment_button_id="pl_Ix4Os9ECesBG7q" async> </script> </form>
-        </div>    
-    </div>
-
-    <div class="container">
-        <form action="">
-            <h2>Contact Us</h2>
-            <hr>
-            <br>
-          <label for="fname">Full Name</label>
-          <input type="text" id="fname" name="fulltname" placeholder="Your name..">
-            
-          <label for="country">Country</label>
-          <select id="country" name="country">
-            <option value="australia">India</option>
-            <option value="canada">Canada</option>
-            <option value="usa">USA</option>
-          </select>
-      
-          <label for="subject">Subject</label>
-          <textarea id="subject" name="subject" placeholder="Write something.." style="height:100px"></textarea>
-          <input type="submit" value="Submit">
-        </form>
+  <div class="header">
+    <a class="navbar-brand" href="/">
+      <div class="logo-image">
+        <img src="img/logo.jpg" height="46" width="46">
       </div>
-        
-      <footer>
-        <h6>&copy Akshita Jha | Web Development Intern at The Sparks Foundation 2022 <br> Made with ❤️ </h6>
-    </footer>
-    
+    </a>
+    <a href="#default" class="logo"><span>Bowl</span> of Love</a>
+    <div class="header-right">
+      <a href="index.html">Home</a>
+      <a href="aboutUs.html">About us</a>
+      <a href="ourWork.html">Our work</a>
+      <a href="contactUs.html" class="activeContact">Contact us</a>
+      <form>
+        <script src="https://checkout.razorpay.com/v1/payment-button.js" data-payment_button_id="pl_Ix4Os9ECesBG7q"
+          async> </script>
+      </form>
+    </div>
+  </div>
+
+  <div class="container">
+    <form action="https://formspree.io/f/mwkjvvwn" method="POST">
+      <h2>Contact Us</h2>
+      <hr>
+      <br>
+      <label for="fname">Full Name</label>
+      <input type="text" id="fname" name="Full Name" placeholder="Your name..">
+
+      <label for="fname">Email</label>
+      <input type="text" id="fname" name="Email" placeholder="Your Email Id..">
+
+      <label for="country">Country</label>
+      <select id="country" name="Country">
+        <option value="India">India</option>
+        <option value="Canada">Canada</option>
+        <option value="USA">USA</option>
+      </select>
+
+      <label for="message">Message</label>
+      <textarea id="message" name="message" placeholder="Write your message.." style="height:100px"></textarea>
+      <input type="submit" value="Submit">
+    </form>
+  </div>
+
+  <footer>
+    <h6>&copy Akshita Jha | Web Development Intern at The Sparks Foundation 2022 <br> Made with ❤️ </h6>
+  </footer>
+
 </body>
+
 </html>
